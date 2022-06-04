@@ -29,7 +29,7 @@ Route::get('/', function () {
     
 });
 
-Route::get('/contact', function () {
+Route::get('/contatos', function () {
     return view('contact');
 });
 Route::get('/produtos', function () {
