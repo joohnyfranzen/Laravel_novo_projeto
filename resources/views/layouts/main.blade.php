@@ -35,7 +35,7 @@
             </nav>
         </header>
         <h1>Algum título</h1>
-        <img src="/img/banner.jpg" alt="banner">
+        <img src="/img/banne.jpg" alt="banner">
         @yield('content')
         <footer>
             <p>HDC Events &copy; 2020</p>           
