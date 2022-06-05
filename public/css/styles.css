@@ -1,3 +1,6 @@
 * {
     font-family: 'Roboto';
 }
+#logo {
+    max-width: 100px;
+}

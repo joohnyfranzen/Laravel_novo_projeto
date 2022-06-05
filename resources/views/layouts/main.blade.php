@@ -20,12 +20,12 @@
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="collapse navbar-collapse" id="navbar">
                     <a href="/" class="navbar-brand">
-                    <img src="/img/logo.svg" alt=""></a>
+                    <img src="/img/logo.svg" alt="" id="logo"></a>
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a href="/" class="nav-link">Eventos</a></li>
                         <li class="nav-item">    
-                            <a href="/" class="nav-link">Criar Eventos</a></li>
+                            <a href="/events/create" class="nav-link">Criar Eventos</a></li>
                         <li class="nav-item">
                             <a href="/" class="nav-link">Entrar</a> </li>
                         <li class="nav-item">
@@ -40,5 +40,6 @@
         <footer>
             <p>HDC Events &copy; 2020</p>           
         </footer>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     </body>
 </html>
