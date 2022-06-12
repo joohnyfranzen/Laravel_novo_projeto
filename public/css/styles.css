@@ -97,7 +97,7 @@ header {
     display: flex;
 }
 
-#events-container card {
+#events-container .card {
     flex: 1 1 24%;
     max-width: 25%;
     border-radius: 10px;
