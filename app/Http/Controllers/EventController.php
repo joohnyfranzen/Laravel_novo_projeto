@@ -82,6 +82,8 @@ class EventController extends Controller
 
         $events = $user->events;
 
+        $eventsAsParticipant = $user->eventsAsParticipant;
+
         return view('events.dashboard', ['events' => $events]);
     }
 
@@ -123,5 +125,16 @@ class EventController extends Controller
 
         return redirect('/dashboard')->with('msg', 'Evento editado com sucesso!');
 
+    }
+
+    public function joinEvent($id) {
+
+        $user = auth()->user();
+
+        $user->eventsAsParticipant()->attach($id);
+
+        $event = Event::findOrFail($id);
+
+        return redirect('/dashboard')->with('msg', 'Sua precença está confirmada no evento' . $event->title);
     }
 }
